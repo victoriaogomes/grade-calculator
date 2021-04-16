@@ -17,7 +17,7 @@
         app:layout_constraintHorizontal_bias="0.533"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@drawable/ic_grade" />
+        android:src="@drawable/ic_grade" />
 
     <TextView
         android:id="@+id/textView"
@@ -39,13 +39,18 @@
         android:layout_width="315dp"
         android:layout_height="63dp"
         android:layout_marginTop="28dp"
+        android:textColorHint="#673AB7"
         app:boxBackgroundColor="#FFFFFF"
         app:boxBackgroundMode="filled"
         app:boxCornerRadiusBottomEnd="8dp"
         app:boxCornerRadiusBottomStart="8dp"
         app:boxCornerRadiusTopEnd="8dp"
         app:boxCornerRadiusTopStart="8dp"
-        app:hintTextAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:endIconDrawable="@drawable/ic_pencil"
+        app:helperTextTextColor="#000000"
+        app:hintAnimationEnabled="true"
+        app:hintEnabled="true"
+        app:hintTextAppearance="@style/TextAppearance.AppCompat.Small"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView">
@@ -54,7 +59,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-medium"
-            android:hint="@string/grade1" />
+            android:hint="@string/grade1"
+            android:inputType="number"
+            android:textColor="#000000"
+            android:textColorHint="#000000" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -62,11 +70,14 @@
         android:layout_width="315dp"
         android:layout_height="63dp"
         android:layout_marginTop="28dp"
+        android:textColorHint="#673AB7"
         app:boxBackgroundColor="#FFFFFF"
         app:boxCornerRadiusBottomEnd="8dp"
         app:boxCornerRadiusBottomStart="8dp"
         app:boxCornerRadiusTopEnd="8dp"
         app:boxCornerRadiusTopStart="8dp"
+        app:hintAnimationEnabled="true"
+        app:hintEnabled="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/grade1">
@@ -75,7 +86,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-medium"
-            android:hint="@string/grade2" />
+            android:hint="@string/grade2"
+            android:inputType="number"
+            android:textColor="#000000" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -83,11 +96,14 @@
         android:layout_width="315dp"
         android:layout_height="63dp"
         android:layout_marginTop="28dp"
+        android:textColorHint="#673AB7"
         app:boxBackgroundColor="#FFFFFF"
         app:boxCornerRadiusBottomEnd="8dp"
         app:boxCornerRadiusBottomStart="8dp"
         app:boxCornerRadiusTopEnd="8dp"
         app:boxCornerRadiusTopStart="8dp"
+        app:hintAnimationEnabled="true"
+        app:hintEnabled="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/grade2">
@@ -96,7 +112,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-medium"
-            android:hint="@string/absenceAccount" />
+            android:hint="@string/absenceAccount"
+            android:inputType="number"
+            android:textColor="#000000" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
