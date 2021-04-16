@@ -5,4 +5,5 @@
     <string name="absenceAccount">Absence Account</string>
     <string name="calcGrade">Calculate grade</string>
     <string name="gradeIcon">Icon of grade calculate screen</string>
+    <string name="reprovedAbsence">Failed for lack</string>
 </resources>
