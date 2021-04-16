@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Grade calculator</string>
+    <string name="grade1">Grade 1</string>
+    <string name="grade2">Grade 2</string>
+    <string name="absenceAccount">Absence Account</string>
+    <string name="calcGrade">Calculate grade</string>
+    <string name="gradeIcon">Icon of grade calculate screen</string>
 </resources>
