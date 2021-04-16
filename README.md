@@ -11,8 +11,4 @@ Grade calculator is a simple app developed in Kotlin in which you can calculate 
 
 ## App execution images
 
-<img height="180em"src="https://github.com/victoriaogomes/grade-calculator/blob/0db3f65af9aa40bc77febd3256a2a66adfe5cd02/prints/print1.png">
-
-<img height="180em"src="https://github.com/victoriaogomes/grade-calculator/blob/0db3f65af9aa40bc77febd3256a2a66adfe5cd02/prints/print2.png">
-
-<img height="180em"src="https://github.com/victoriaogomes/grade-calculator/blob/0db3f65af9aa40bc77febd3256a2a66adfe5cd02/prints/print3.png">
+<img src="prints/print1.png" width="242"> <img src="prints/print2.png" width="250"> <img src="prints/print3.png" width="250">
